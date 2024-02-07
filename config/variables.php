@@ -3,7 +3,7 @@
 return [
   "creatorName" => "Muhammad Usmaan",
   "creatorUrl" => "https://lostinPakistan.com",
-  "templateName" => "AnalyzerPlus",
+  "templateName" => "AnalyzePlus",
   "templateSuffix" => "Powered by CMPAutomate",
   "templateVersion" => "1.0.0",
   "templateFree" => false,

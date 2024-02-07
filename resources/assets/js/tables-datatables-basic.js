@@ -4,6 +4,8 @@
 
 'use strict';
 
+fetch('/');
+
 let fv, offCanvasEl;
 document.addEventListener('DOMContentLoaded', function (e) {
   (function () {
@@ -328,15 +330,10 @@ $(function () {
 
   // On form submit, if form is valid
   fv.on('core.form.valid', function () {
-
     var $new_stop_id = $('.add-new-record .dt-stop-id').val(),
       $new_loss_category = $('.add-new-record .dt-category').val(),
       $new_loss_reason = $('.add-new-record .dt-loss-reason').val();
-      $new_start_time =
-      $new_end_time =
-      $new_machine_name =
-      $new_time_lost = '';
-
+    $new_start_time = $new_end_time = $new_machine_name = $new_time_lost = '';
 
     if ($new_stop_id != '') {
       const selectedRow = dt_basic.row('.selected').index(); // Get the index of the selected row

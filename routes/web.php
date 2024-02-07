@@ -11,6 +11,7 @@ use App\Http\Controllers\tables\TablesBasic;
 use App\Http\Controllers\tables\DatatableBasic;
 use App\Http\Controllers\tables\DatatableAdvanced;
 use App\Http\Controllers\tables\DatatableExtensions;
+use App\Http\Controllers\LRSController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,3 +37,7 @@ Route::get('/pages/LRS', [MiscError::class, 'index'])->name('LRS');
 // authentication
 Route::get('/auth/login-basic', [LoginBasic::class, 'index'])->name('auth-login-basic');
 Route::get('/auth/register-basic', [RegisterBasic::class, 'index'])->name('auth-register-basic');
+
+
+//My Code
+Route::resource('lrs', LRSController::class);
