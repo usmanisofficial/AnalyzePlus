@@ -1,8 +1,8 @@
 <?php
 // Variables
 return [
-  "creatorName" => "Pixinvent",
-  "creatorUrl" => "https://pixinvent.com",
+  "creatorName" => "Muhammad Usmaan",
+  "creatorUrl" => "https://lostinPakistan.com",
   "templateName" => "AnalyzerPlus",
   "templateSuffix" => "Powered by CMPAutomate",
   "templateVersion" => "1.0.0",
@@ -23,7 +23,7 @@ return [
   "githubFreeUrl" => "https://tools.pixinvent.com/github/github-access",
   "facebookUrl" => "https://www.facebook.com/pixinvents/",
   "twitterUrl" => "https://twitter.com/pixinvents",
-  "githubUrl" => "https://github.com/pixinvent",
+  "githubUrl" => "https://github.com/usmanisofficial",
   "dribbbleUrl" => "https://dribbble.com/pixinvent",
   "instagramUrl" => "https://www.instagram.com/pixinvents/"
 ];
