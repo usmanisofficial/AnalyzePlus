@@ -49,7 +49,6 @@ $customizerHidden = 'customizer-hide';
           </div>
           <!-- /Logo -->
           <h4 class="mb-1 pt-2">Adventure starts here 🚀</h4>
-          <p class="mb-4">Make your app management easy and fun!</p>
 
           <form id="formAuthentication" class="mb-3" action="{{url('/')}}" method="GET">
             <div class="mb-3">
@@ -69,15 +68,13 @@ $customizerHidden = 'customizer-hide';
             </div>
 
             <div class="mb-3">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="terms-conditions" name="terms">
-                <label class="form-check-label" for="terms-conditions">
-                  I agree to
-                  <a href="javascript:void(0);">privacy policy & terms</a>
+              <div class="">
+                <label class="" for="terms-conditions">
+                Cannot create an account. Please contact the administrator.
                 </label>
               </div>
             </div>
-            <button class="btn btn-primary d-grid w-100">
+            <button class="btn btn-primary d-grid w-100 disabled">
               Sign up
             </button>
           </form>
@@ -89,22 +86,7 @@ $customizerHidden = 'customizer-hide';
             </a>
           </p>
 
-          <div class="divider my-4">
-            <div class="divider-text">or</div>
-          </div>
 
-          <div class="d-flex justify-content-center">
-            <a href="javascript:;" class="btn btn-icon btn-label-facebook me-3">
-              <i class="tf-icons fa-brands fa-facebook-f fs-5"></i>
-            </a>
-
-            <a href="javascript:;" class="btn btn-icon btn-label-google-plus me-3">
-              <i class="tf-icons fa-brands fa-google fs-5"></i>
-            </a>
-
-            <a href="javascript:;" class="btn btn-icon btn-label-twitter">
-              <i class="tf-icons fa-brands fa-twitter fs-5"></i>
-            </a>
           </div>
         </div>
       </div>

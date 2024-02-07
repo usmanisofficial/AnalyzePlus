@@ -3,8 +3,8 @@
 return [
   "creatorName" => "Pixinvent",
   "creatorUrl" => "https://pixinvent.com",
-  "templateName" => "AnlyzerPlus",
-  "templateSuffix" => "Bootstrap Admin Template",
+  "templateName" => "AnalyzerPlus",
+  "templateSuffix" => "Powered by CMPAutomate",
   "templateVersion" => "1.0.0",
   "templateFree" => false,
   "templateDescription" => "Start your development with a Dashboard for Bootstrap 5",

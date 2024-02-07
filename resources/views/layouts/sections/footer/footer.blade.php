@@ -8,7 +8,7 @@ $containerFooter = (isset($configData['contentLayout']) && $configData['contentL
     <div class="footer-container d-flex align-items-center justify-content-between py-2 flex-md-row flex-column">
       <div>
         © <script>document.write(new Date().getFullYear())
-  </script>, made with ❤️ by <a href="https://cmpautomate.com" target="_blank" class="footer-link text-primary fw-medium">CMP Automate</a>
+  </script>,Analyzer<span class="footer-link text-primary fw-medium">Plus</span> made with ❤️ by <a href="https://cmpautomate.com" target="_blank" class="footer-link text-primary fw-medium">CMP Automate</a>
       </div>
     </div>
   </div>
